@@ -21,7 +21,7 @@ jobs:
 
       - name: Add upstream and fetch changes
         run: |
-          git remote add upstream https://github.com/datanymics/unifi-ddns.git || true
+          git remote add upstream https://github.com/willswire/unifi-ddns.git || true
           git fetch upstream
 
       - name: Merge upstream changes
